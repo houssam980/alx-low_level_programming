@@ -1,0 +1,26 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Description: putchar without eq
+ * Return: Always 0 (Success)
+ */
+
+
+
+
+
+
+
+int main(void)
+{
+char alpha;
+char alphaup;
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+{
+if (alpha != 'q' && alpha != 'e')
+putchar(alpha);
+}
+putchar('\n');
+return (0);
+}
+
