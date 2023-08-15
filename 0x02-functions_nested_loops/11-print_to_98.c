@@ -19,7 +19,7 @@ printf("%d, ", vn);
 }
 else
 {
-for (vn = n; vn < 99; vn++)
+for (vn = n; vn < 98; vn++)
 printf("%d, ", vn);
 printf("98\n");
 }
