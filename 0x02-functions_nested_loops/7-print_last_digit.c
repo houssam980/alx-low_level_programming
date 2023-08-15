@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_last_digit - print the last alphabet
-*@int @num: input
+*@num: input
 * Return: returns result value (success)
 */
 
