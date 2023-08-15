@@ -11,6 +11,7 @@
 int print_last_digit(int num)
 {
 int gv;
+gv = num % 10;
 if (gv < 0)
 {
 _putchar(-gv + 48);
