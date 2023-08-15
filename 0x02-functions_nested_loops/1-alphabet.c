@@ -13,5 +13,4 @@ for (f = 97 ; f <= 122 ; f++)
 _putchar(f);
 }
 _putchar('\n');
-return (0);
 }
