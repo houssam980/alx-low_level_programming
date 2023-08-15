@@ -11,17 +11,27 @@
 
 void print_to_98(int n)
 {
-int vn;
-if (n > 98)
-{
-for (vn = n; vn  > 98; vn--)
-printf("%d, ", vn);
-}
-else
-{
-for (vn = n; vn < 97; vn++)
-printf("%d, ", vn);
-printf("98\n");
-}
+	int lp;
+
+	if (n < 98)
+	{
+		for (lp = n; lp < 98; lp++)
+		{
+			printf("%d", lp);
+			printf(",");
+			printf(" ");
+		}
+	}
+	else
+	{
+		for (lp = n; lp > 98; lp--)
+		{
+			printf("%d", lp);
+			printf(",");
+			printf(" ");
+		}
+	}
+
+	printf("98\n");
 
 }
