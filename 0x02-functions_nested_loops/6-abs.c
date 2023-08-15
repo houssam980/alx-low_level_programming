@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-* _abs - print the alphabet in lower
-* Description: discription here
-*@int: input
+* _abs - print the integer value
+*@n: input
 * Return: return 0 always (Success)
 */
 
@@ -13,6 +12,6 @@
 int _abs(int n)
 {
 	if (n < 0)
-		n = (-10) * n;
+		n = (-1) * n;
 	return (n);
 }
