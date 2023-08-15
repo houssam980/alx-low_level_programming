@@ -14,7 +14,7 @@ void print_to_98(int n)
 int vn;
 if (n > 98)
 {
-for (vn = n; vn  > 98; vn--)
+for (vn = n; vn  > 99; vn--)
 printf("%d, ", vn);
 }
 else
