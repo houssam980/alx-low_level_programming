@@ -11,14 +11,8 @@
 
 int _isupper(int c)
 {
-	char lt = 'C';
-
-if (isupper(lt)){
-
+if (isupper(c)){
 return (1);
-}
 else
-{
 return (0);
-}
 }
