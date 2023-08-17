@@ -14,7 +14,7 @@ printer = 0;
 while (printer < n)
 {
 _putchar('_');
-printer;
+printer++;
 }
 _putchar('\n');
 }
