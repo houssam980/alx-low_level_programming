@@ -9,24 +9,23 @@
 
 
 
-
-
 void more_numbers(void)
 {
 
-char num;
-char i;
-for (i >= '0'; i <= '9'; i++)
-{
-for (num = '0'; num <= '14'; num++)
-{
-if (num > '9')
-putchar(num / 10 + '0');
-putchar(num % 10 + '0');
-}
-putchar('\n');
-num = '0';
-	}
-}
+int pnt = 0;
+int counter = 0;
 
-
+while (counter <= 9)
+{
+while (pnt <= 14)
+{
+if (pnt > 9)
+_putchar(pnt / 10 + '0');
+_putchar(pnt % 10 + '0');
+pnt++;
+}
+_putchar('\n');
+counter++;
+pnt = 0;
+}
+}
