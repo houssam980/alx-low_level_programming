@@ -13,7 +13,7 @@ if (size < 1)
 _putchar('\n');
 while (t_foot < size)
 {
-t_head= 0;
+t_head = 0;
 while (t_head < size)
 {
 _putchar('#');
