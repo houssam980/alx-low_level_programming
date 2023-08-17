@@ -14,18 +14,18 @@
 void more_numbers(void)
 {
 
-int num;
-int i;
-for (i = 0; i <= 9; i++)
+char num;
+char i;
+for (i >= '0'; i <= '9'; i++)
 {
-for (num = 0; num <= 14; num++)
+for (num = '0'; num <= '14'; num++)
 {
-if (num > 9)
+if (num > '9')
 putchar(num / 10 + '0');
 putchar(num % 10 + '0');
 }
 putchar('\n');
-num = 0;
+num = '0';
 	}
 }
 
