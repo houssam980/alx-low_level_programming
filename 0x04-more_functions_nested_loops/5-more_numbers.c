@@ -8,24 +8,24 @@
 
 
 
-
 void more_numbers(void)
 {
 
-int pnt = 0;
-int counter = 0;
+	int cnt = 0;
+	int printer = 0;
 
-while (counter <= 9)
+while (printer <= 9)
 {
-while (pnt <= 14)
+while (cnt <= 14)
 {
-if (pnt > 9)
-_putchar(pnt / 10 + '0');
-_putchar(pnt % 10 + '0');
-pnt++;
-}
-_putchar('\n');
-counter++;
-pnt = 0;
+if (cnt > 9)
+_putchar(cnt / 10 + '0');
+_putchar(cnt % 10 + '0');
+cnt++;
+
+		}
+	_putchar('\n');
+	printer++;
+	cnt = 0;
 }
 }
