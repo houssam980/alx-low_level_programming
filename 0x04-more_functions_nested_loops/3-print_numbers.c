@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  4 * print_numbers - print numbers using _putchar
-  5 * Return: return 0 (Success)
-  6 */
+* print_numbers - print numbers using _putchar
+* Return: return 0 (Success)
+*/
 void print_numbers(void)
-  {
+{
 char nm = 0;
 while (nm >= '0')
 {
