@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
 * mul - multuple of a and b
