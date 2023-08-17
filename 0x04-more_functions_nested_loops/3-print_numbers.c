@@ -5,8 +5,8 @@
 */
 void print_numbers(void)
 {
-char nm = 0;
-while (nm >= '0')
+char nm = '0';
+while (nm >= '9')
 {
 _putchar(nm);
 nm++;
