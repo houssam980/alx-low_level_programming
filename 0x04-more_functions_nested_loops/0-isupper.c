@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
 * _isupper - check alphabet uppercase
 * @c: input
