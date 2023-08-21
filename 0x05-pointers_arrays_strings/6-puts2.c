@@ -8,7 +8,7 @@
 void puts2(char *str)
 {
 int how_m, ctr;
-len = 0;
+how_m = 0;
 while (str[how_m] != '\0')
 {
 how_m++;
