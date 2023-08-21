@@ -12,7 +12,7 @@ while (s[ctr] != '\0')
 {
 ctr++;
 }
-how_m= ctr1;
+how_m= ctr;
 for (ctr2 = how_m - 1; ctr2 >= 0; ctr2--)
 {
 _putchar(s[ctr2]);
