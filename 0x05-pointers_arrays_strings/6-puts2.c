@@ -13,7 +13,7 @@ while (str[how_m] != '\0')
 {
 how_m++;
 }
-for (i = 0; ctr < how_m; ctr += 2)
+for (ctr = 0; ctr < how_m; ctr += 2)
 {
 _putchar(str[ctr]);
 }
