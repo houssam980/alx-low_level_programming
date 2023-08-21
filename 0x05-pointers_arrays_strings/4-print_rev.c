@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_rev - print in revers
- * @s: string
+ * print_rev - print it in revers
+ * @s: string that will print
  */
 void print_rev(char *s)
 {
-int counter, lp, lp2;
-lp = 0;
-while (s[lp] != '\0')
+int ctr, ctr2, how_m;
+ctr = 0;
+while (s[ctr] != '\0')
 {
-lp++;
+ctr++;
 }
-counter = lp;
-for (lp2 = counter - 1; counter >= 0; lp2--)
+how_m= ctr1;
+for (ctr2 = how_m - 1; ctr2 >= 0; ctr2--)
 {
-_putchar(s[lp2]);
+_putchar(s[ctr2]);
 }
 _putchar('\n');
 }
