@@ -2,16 +2,14 @@
 
 /**
  * _puts - print to stdout
- * @str: pointer
+ * @str: pointer 
  */
-
 void _puts(char *str)
 {
 int lp;
-lp = 0;
-while (str[lp] != '\0')
+for (lp = 0; str[lp] != '\0'; lp++)
 {
-lp++;
 _putchar(str[lp]);
 }
+_putchar('\n');
 }
