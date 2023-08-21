@@ -14,5 +14,4 @@ while (str[lp] != '\0')
 lp++;
 _putchar(str[lp]);
 }
-return (lp);
 }
