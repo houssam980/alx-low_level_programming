@@ -16,3 +16,4 @@ for (lp = 0; lp < how_m; lp += 2)
 {
 _putchar(str[lp]);
 }
+}
