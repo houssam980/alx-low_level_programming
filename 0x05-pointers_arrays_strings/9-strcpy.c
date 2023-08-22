@@ -7,7 +7,8 @@
  * @src: source of string
  * Return: return @dest
  */
-char *_strcpy(char *dest, const char *src)
+
+char *_strcpy(char *dest, char *src)
 {
 int po = 0;
 while (src[po])
