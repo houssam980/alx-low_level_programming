@@ -8,7 +8,7 @@ char *string_toupper(char *hi)
 {
 int inpt = 0;
 int desp = 'a' - 'A';
-for (index = 0; hi[inpt] != '\0'; ++inpt)
+for (inpt = 0; hi[inpt] != '\0'; ++inpt)
 {
 if (hi[inpt] >= 'a' && hi[inpt] <= 'z')
 {
