@@ -15,15 +15,15 @@ if (*(s + lp) >= 'a' && *(s + lp) <= 'z')
 {
 if (lp == 0)
 {
-*(s + lp) = *(s + lp) - 32;
+*(s + lp) = *(s + lp) -32;
 }
 else
 {
-for (lp2 = 0; lp2<= 12; lp2++)
+for (lp2 = 0; lp2 <= 12; lp2++)
 {
 if (a[lp2] == *(s + lp - 1))
 {
-*(s + lp) = *(s + lp) - 32;
+*(s + lp) = *(s + lp) -32;
 }
 }
 }
