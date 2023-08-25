@@ -1,33 +1,34 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * cap_string - capitalize a string
- * @entry: This is the input string
- * Return: String capitalized 
+ * cap_string - capitalizes strings words.
+ * @s: string entry
+ * Return: String with all words capitalized.
  */
-char *cap_string(char *entry)
+char *cap_string(char *s)
 {
-	int conversion, index, count;
-
-	char chars[] = {' ', ',', ';', '.', '!',
-			 '?', '"', '(', ')', '{', '}',  '\t', '\n', '\0'};
-	conversion = 32;
-
-	for (index = 0; entry[index] != '\0'; index++)
-	{
-		if (entry[index] >= 'index' && entry[index] <= 'z')
-		{
-			entry[index] =  entry[index] - conversion;
-		}
-		conversion = 0;
-		for (count = 0; chars[count] != '\0'; count++)
-		{
-			if (chars[count] == entry[index])
-			{
-				conversion = 32;
-				break;
-			}
-		}
-	}
-	return (entry);
+int lp, lp2;
+int a[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+lp = 0;
+while (*(s + lp) != '\0')
+{
+if (*(s + lp) >= 'a' && *(s + lp) <= 'z')
+{
+if (lp == 0)
+{
+*(s + lp) = *(s + lp) - 32;
+}
+else
+{
+for (lp2 = 0; lp2<= 12; lp2++)
+{
+if (a[lp2] == *(s + lp - 1))
+{
+*(s + lp) = *(s + lp) - 32;
+}
+}
+}
+}
+lp++;
+}
+return (s);
 }
