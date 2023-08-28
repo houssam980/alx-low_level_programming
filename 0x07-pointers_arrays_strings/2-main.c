@@ -1,3 +1,6 @@
+#include "main.h"
+
+
 /**
  * _strchr -  locates a character in a string
  * @s: str 
@@ -6,14 +9,15 @@
  */
 char *_strchr(char *s, char c)
 {
-int lp = 0;
-while (*(s + lp))
-{
-if (*(s + lp) == c)
-return (s + lp);
-lp++;
+	int lp = 0;
+	while (*(s + lp))
+	{
+    if (*(s + lp) == c)
+    return (s + lp);
+    lp++;
 }
-if (*(s + lp) == c)
+	if (*(s + lp) == c)
 return (s + lp);
-return (NULL);
+    else
+	return (NULL);
 }
