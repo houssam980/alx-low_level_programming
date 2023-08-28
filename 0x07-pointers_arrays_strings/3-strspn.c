@@ -2,9 +2,9 @@
 
 /**
  * _strspn - finds length of prefix substring
- * @s: string 
+ * @s: string
  * @accept: substring of chars
- * Return: returns n 
+ * Return: returns n
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -21,7 +21,7 @@ if (*(accept + lp) == *s)
 ln++;
 lp++;
 }
-if (prx == ln) 
+if (prx == ln)
 break;
 s++;
 }
