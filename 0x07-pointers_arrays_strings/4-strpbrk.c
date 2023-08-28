@@ -1,5 +1,5 @@
 /**
- * _strpbrk - searches for str 
+ * _strpbrk - searches for str
  * @s: string
  * @accept: substring of chars
  * Return: pointer to first occurance
