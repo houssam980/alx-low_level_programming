@@ -7,7 +7,7 @@
  * Return: On success 1.
  * -1 if n not a prime
  */
-int operation_prime(int a, int b)
+int operation_prime(int opt1, int opt2)
 {
 if (opt1 == opt2)
 return (1);
