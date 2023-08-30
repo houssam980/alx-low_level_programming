@@ -17,7 +17,7 @@ return (operation_prime(opt1, opt2 + 1));
 }
 /**
  * is_prime_number - check for prime num
- * @n: Number 
+ * @n: Number
  * Return: On success 1 return -1 if num not prime
  */
 int is_prime_number(int n)
