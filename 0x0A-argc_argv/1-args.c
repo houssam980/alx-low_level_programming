@@ -2,7 +2,7 @@
 
 /**
  * main - entry point / number of arguments passed into it
- * @argv: array with the arguments
+ * @argc: arguments
  * @argv: array with the arguments
  * Return: always 0
  **/
