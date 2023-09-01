@@ -16,7 +16,7 @@ if (argc != 3)
 printf("%s\n", handler);
 return (1);
 }
-mul = asy(argv[1]) * asy(argv[2]);
+mul = atoi(argv[1]) * atoi(argv[2]);
 printf("%i\n", mul);
 return (0);
 }
