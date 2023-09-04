@@ -22,7 +22,7 @@ for (lp1 = 0; s1[lp1] != '\0'; lp1++)
 for (lp2 = 0; s2[lp2] != '\0'; lp2++)
 	;
 lp2++;
-p = malloc(lp1 * sizeof(*s1) + lp2 * sizeof(*s2));
+p = malloc(lp1 * sizeof(* s1) + lp2 * sizeof(* s2));
 if (p == 0)
 return (NULL);
 for (lp3 = 0, lp4 = 0; lp3 < lp1 + lp2; lp3++)
