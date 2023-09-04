@@ -29,7 +29,7 @@ return (NULL);
 }
 }
 for (lp1 = 0; lp1 < height; lp1++)
-for (j = 0; lp2 < width; lp2++)
+for (lp2 = 0; lp2 < width; lp2++)
 dc[lp1][lp2] = 0;
 return (dc);
 }
