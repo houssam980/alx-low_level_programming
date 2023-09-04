@@ -20,7 +20,7 @@ return (NULL);
 for (lp1 = 0; lp1 < height; lp1++)
 {
 dc[lp1] = malloc(sizeof(int) * width);
-if (dc[mp1] == NULL)
+if (dc[lp1] == NULL)
 {
 for (--lp1; lp1 >= 0; lp1--)
 free(dc[lp1]);
@@ -29,7 +29,7 @@ return (NULL);
 }
 }
 for (lp1 = 0; lp1 < height; lp1++)
-0for (j = 0; lp2 < width; lp2++)
+for (j = 0; lp2 < width; lp2++)
 dc[lp1][lp2] = 0;
 return (dc);
 }
