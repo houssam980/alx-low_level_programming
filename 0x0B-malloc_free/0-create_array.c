@@ -6,7 +6,7 @@
  * *create_array - create an array of chars
  *@size: array size
  *@c: char that will initialized
- *return: pointer or NULL
+ *Return: return pointer or NULL
  */
 
 
