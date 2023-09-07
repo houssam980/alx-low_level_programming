@@ -1,7 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /**
  * *array_range - memory for an array
  * @min: int one
@@ -23,7 +23,7 @@ if (poi == NULL)
 return (NULL);
 }
 arr_y = 0;
-while (min <= max)
+while (min < max)
 {
 poi[arr_y] = min;
 min++;
