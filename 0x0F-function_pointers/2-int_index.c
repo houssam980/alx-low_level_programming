@@ -17,6 +17,6 @@ while(lp < size)
 if (cmp(array[lp]))
 return (lp);
 lp++;
-return (-1);
 }
+return (-1);
 }
