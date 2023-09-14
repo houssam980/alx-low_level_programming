@@ -3,7 +3,7 @@
 
 /**
  * print_numbers - prints string arguments with a separator
- * @separator: - print among the string 
+ * @separator: - print among the string
  * @n: - num arg
  * @...: print string
  * Return: nothing to return
@@ -18,8 +18,9 @@ if (!n)
 printf("\n");
 return;
 }
-va_start(ap , n);
+va_start(ap, n);
 while (lp--)
-printf("%s%s", (str = va_arg(ap, char *)) ? str : "(nil)", lp ? (separator ? separator : "") : "\n");
+printf("%s%s", (str = va_arg(ap, char *)) ? str : "(nil)",
+lp ? (separator ? separator : "") : "\n");
 va_end(ap);
 }
