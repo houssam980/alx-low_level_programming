@@ -11,14 +11,14 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 int lp = n;
-char *str
+char *str;
 va_list ap;
 if (!n)
 {
 printf("\n");
 return;
 }
-va_start(ap, n);
+va_start(ap , n);
 while (lp--)
 printf("%s%s", (str = va_arg(ap, char *)) ? str : "(nil)", lp ? (separator ? separator : "") : "\n");
 va_end(ap);
