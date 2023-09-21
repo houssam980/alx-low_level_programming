@@ -22,5 +22,6 @@ return (NULL);
 nuv_head->len = _strlen(nuv_head->str);
 }
 nuv_head->next = *head;
+*head = nuv_head;
 return (nuv_head);
 }
