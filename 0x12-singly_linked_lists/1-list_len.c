@@ -2,7 +2,7 @@
 
 /**
  * list_len - returns the number of elements in a linked
- * @h: single list 
+ * @h: single list
  * Return: return size of the list
  */
 
