@@ -13,7 +13,6 @@ return;
 nd = *head;
 while (nd)
 {
-free(actual_node);
 tmpr = nd;
 nd = nd->next;
  free(tmpr)
