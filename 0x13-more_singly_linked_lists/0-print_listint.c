@@ -3,7 +3,7 @@
 
 /**
  * print_listint - print all list elements
- * @h:pointer / list
+ * @h:pointer to node
  * Return: nodes number
  **/
 size_t print_listint(const listint_t *h)

@@ -3,7 +3,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdarg.h>
 #include <string.h>
 
 /**
@@ -19,8 +18,6 @@ typedef struct listint_s
     int n;
     struct listint_s *next;
 } listint_t;
-
-
 
 
 
