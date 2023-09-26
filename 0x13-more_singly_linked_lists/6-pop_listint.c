@@ -8,7 +8,7 @@
 int pop_listint(listint_t **head)
 {
 unsigned int handler; /*data handler*/
-listint_t *nd= *head;
+listint_t *nd = *head;
 if (!nd)
 return (0);
 handler = (*head)->n;
