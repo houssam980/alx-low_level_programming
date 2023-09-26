@@ -15,7 +15,7 @@ while (nd)
 {
 tmpr = nd;
 nd = nd->next;
-free(tmpr)
+free(tmpr);
 }
 *head = NULL;
 }
