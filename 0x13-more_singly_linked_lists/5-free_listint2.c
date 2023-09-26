@@ -15,8 +15,7 @@ while (nd)
 {
 tmpr = nd;
 nd = nd->next;
- free(tmpr)
+free(tmpr)
 }
-free(actual_node);
 *head = NULL;
 }
