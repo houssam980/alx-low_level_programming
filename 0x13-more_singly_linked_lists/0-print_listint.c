@@ -13,7 +13,7 @@ size_t lp = 0;
 while (h)
 {
 printf("%d\n", h->n);
-h = h->next;	
+h = h->next;
 lp++;
 }
 return (lp);
