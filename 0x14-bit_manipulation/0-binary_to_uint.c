@@ -6,9 +6,9 @@
  * @b: ptr string
  * Return: Converted number
  */
- 
- unsigned int binary_to_uint(const char *b)
- {
+
+unsigned int binary_to_uint(const char *b)
+{
 unsigned int n = 0;
 if (!b)
 return (0);
