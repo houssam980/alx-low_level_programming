@@ -20,5 +20,4 @@ else
 {
 _putchar('0');
 }
-return (n);
 }
