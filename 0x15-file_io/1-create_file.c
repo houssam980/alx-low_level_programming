@@ -12,7 +12,7 @@
 * Return: length of str
 */
 
-int _strlen( char *s)
+int _strlen(char *s)
 {
 int lp = 0;
 if (!s)
