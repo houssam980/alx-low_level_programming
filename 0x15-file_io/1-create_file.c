@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 /**
 * _strlen - return str length
 * @s: string
@@ -31,12 +35,11 @@ int create_file(const char *filename, char *text_content)
 {
 
 int fnam;
-ssize_t byts = 0;
-ssize_t leng = _strlen(text_content);
+ssize_t byts = 0, leng = _strlen(text_content);
 
 if (!filename)
 return (-1);
-fnam = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S8IRUSR | S_IWUSR);
+fnam = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 if (fnam == -1)
 return (-1);
 if (leng)
