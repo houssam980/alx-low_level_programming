@@ -11,7 +11,7 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 hash_table_t *hsh_tb;
-long int lp_1;
+unsigned long int lp_1;
 
 hsh_tb = malloc(sizeof(hash_table_t));
 if (hsh_tb == NULL)
