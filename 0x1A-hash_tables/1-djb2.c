@@ -12,7 +12,7 @@ int calc;
 
 hash = 5381;
 while ((calc = *str++))
-hash = ((hash << 5) + hash) + calc;
+hash = ((hash << 5) + hash) +calc;
 return (hash);
 
 }
