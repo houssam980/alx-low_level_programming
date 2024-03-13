@@ -11,12 +11,12 @@
  * @idx: Index
  * @next: Pointer to next node
  */
-typedef struct listint_s
+typedef struct listin_s
 {
 int num;
 size_t index;
-struct listint_s *next;
-} listint_t;
+struct listin_s *next;
+} listin_t;
 
 /**
  * struct skipl_s - Singly linked list
@@ -29,13 +29,13 @@ typedef struct skipl_s
 {
 int n;
 size_t index;
-struct skiplist_s *next;
-struct skiplist_s *express;
-} skiplist_t;
+struct skipl_s *next;
+struct skipl_s *express;
+} skipl_t;
 
 
 
-int linear_search(int *array, size_t size, int value);
+ int linear_search(int *array, size_t size, int value);
 
 
 #endif
